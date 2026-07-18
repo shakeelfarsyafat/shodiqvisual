@@ -124,11 +124,11 @@ export default function Testimonials() {
                   "{testimonials[currentIndex].quote}"
                 </p>
                 <div>
-                  <h4
-                    className="text-lg text-gold font-semibold mb-1"
+                  <h4 
+                    className="text-lg text-white font-medium mb-1"
                     style={{ fontFamily: "var(--font-dm-sans)" }}
                   >
-                    {testimonials[currentIndex].author}
+                    {testimonials[currentIndex].name}
                   </h4>
                   <p className="text-sm text-soft-gray" style={{ fontFamily: "var(--font-dm-sans)" }}>
                     {testimonials[currentIndex].role}
